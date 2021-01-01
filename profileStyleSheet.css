@@ -1,0 +1,53 @@
+        /*  CSS Style Sheet for my profile page */
+        
+        body {
+            background-color: #4cc9f0;
+            position: fixed;
+            display: inline-block;
+        }
+        
+        #subjects {
+            list-style: none;
+        }
+        
+        h1 {
+            font-family: cursive;
+            font-weight: 20px;
+            text-align: center;
+        }
+        
+        #buttonHTML {
+            background-color: #f72585;
+            font-size: 2em;
+            width: 200px;
+            height: 100px;
+            display: inline-block;
+            border: 2px solid #7209b7;
+            padding: 10px 10px 10px 10px;
+            margin: 20px 20px 20px 20px;
+            border-radius: 20px;
+        }
+        
+        #buttonCSS {
+            font-size: 2em;
+            width: 200px;
+            height: 100px;
+            display: inline-block;
+            border: 2px solid #7209b7;
+            margin: 20px 20px 20px 20px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 20px;
+            background-color: #f72585;
+        }
+        
+        #buttonJavascript {
+            background-color: #f72585;
+            font-size: 2em;
+            width: 200px;
+            height: 100px;
+            display: inline-block;
+            border: 2px solid #7209b7;
+            padding: 10px 10px 10px 10px;
+            margin: 20px 20px 20px 20px;
+            border-radius: 20px;
+        }
