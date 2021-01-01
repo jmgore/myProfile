@@ -1,31 +1,40 @@
         /*  CSS Style Sheet for my profile page */
         
-        body {
-            background-color: #4cc9f0;
-            position: fixed;
-            display: inline-block;
+        header {
+            height: 200px;
         }
         
-        #subjects {
+        body {
+            background-color: #4cc9f0;
+        }
+        
+        ul {
             list-style: none;
         }
         
-        h1 {
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+        
+        header {
+            height: 200px;
+            width: 1600px;
             font-family: cursive;
             font-weight: 20px;
             text-align: center;
         }
         
         #buttonHTML {
+            color: #4361ee;
             position: fixed;
-            top: 20px;
-            right: 20px;
+            top: 200px;
+            left: 200px;
             background-color: #f72585;
             font-size: 2em;
             width: 200px;
             height: 100px;
-            display: inline-block;
-            border: 2px solid #7209b7;
+            border: 2px solid #4361ee;
             padding: 10px 10px 10px 10px;
             margin: 20px 20px 20px 20px;
             border-radius: 20px;
@@ -33,13 +42,12 @@
         
         #buttonCSS {
             position: fixed;
-            top: 20px;
-            right: 280px;
+            top: 200px;
+            left: 540px;
             font-size: 2em;
             width: 200px;
             height: 100px;
-            display: inline-block;
-            border: 2px solid #7209b7;
+            border: 2px solid #4361ee;
             margin: 20px 20px 20px 20px;
             padding: 10px 10px 10px 10px;
             border-radius: 20px;
@@ -48,14 +56,13 @@
         
         #buttonJavascript {
             position: fixed;
-            top: 20px;
-            right: 560px;
+            top: 200px;
+            left: 850px;
             background-color: #f72585;
             font-size: 2em;
             width: 200px;
             height: 100px;
-            display: inline-block;
-            border: 2px solid #7209b7;
+            border: 2px solid #4361ee;
             padding: 10px 10px 10px 10px;
             margin: 20px 20px 20px 20px;
             border-radius: 20px;
