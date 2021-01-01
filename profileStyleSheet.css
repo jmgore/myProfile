@@ -17,6 +17,9 @@
         }
         
         #buttonHTML {
+            position: fixed;
+            top: 20px;
+            right: 20px;
             background-color: #f72585;
             font-size: 2em;
             width: 200px;
@@ -29,6 +32,9 @@
         }
         
         #buttonCSS {
+            position: fixed;
+            top: 20px;
+            right: 280px;
             font-size: 2em;
             width: 200px;
             height: 100px;
@@ -41,6 +47,9 @@
         }
         
         #buttonJavascript {
+            position: fixed;
+            top: 20px;
+            right: 560px;
             background-color: #f72585;
             font-size: 2em;
             width: 200px;
